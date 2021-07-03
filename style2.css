@@ -1,0 +1,43 @@
+#firstBanner{
+	width: 100%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#logo{
+	width: 28n%;
+	height: 10%;
+	transform: translate(10%,10%);
+}
+
+#topBanner{
+	display: flex;
+
+}
+
+#logo, h1,#topBanner>h2{
+	position: absolute;
+}
+
+h1{
+	color: whitesmoke;
+	font-size: 75px;
+	font-family: 'Noto Sans JP',sans-serif; 
+	text-align: left;
+	transform: translate(35%,545%);
+}
+
+.place{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.cards{
+	width: 200px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 15px;
+}

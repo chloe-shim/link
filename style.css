@@ -1,0 +1,77 @@
+h1{
+	color: whitesmoke;
+	font-size: 50px;
+	font-family: times new roman; 
+	text-align: left;
+	transform: translate(35%,190%);
+}
+
+#topBanner>h2{
+	transform: translate(55%,1200%);
+	background-color: white;
+	padding: 4px;
+	border-radius: 12px;
+}
+
+#banner{
+	width: 100%;
+}
+
+.captions{
+	font-family: arial;
+}
+
+.cards{
+	width: 400px;
+	height: 450px;
+	object-fit: cover;
+	border-radius: 15px;
+}
+
+body{
+	font-family: 'Noto Sans JP', sans-serif;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style-type: none;
+	line-height: 30px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#topBanner{
+	display: flex;
+
+}
+
+#logo{
+	width: 28n%;
+	height: 10%;
+	transform: translate(10%,10%);
+}
+
+#logo, h1,#topBanner>h2{
+	position: absolute;
+}
+
+h2{
+	padding: 20px;
+}
+
+.place{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#navigationMenu{
+	display: flex;
+	justify-content: space-evenly;
+}
